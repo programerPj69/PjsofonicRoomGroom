@@ -1,71 +1,127 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Room Groom
 
-## Available Scripts
+**Room Groom** is an innovative platform designed to simplify room rentals. It helps users find, book, and manage accommodations while empowering landlords to list their properties efficiently. This platform is built with a focus on usability, trust, and transparency.
 
-In the project directory, you can run:
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Technology Stack](#technology-stack)
+4. [Setup and Installation](#setup-and-installation)
+5. [Usage](#usage)
+6. [Screenshots](#screenshots)
+7. [Future Enhancements](#future-enhancements)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Introduction
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The **Room Groom** platform connects tenants and landlords to create a seamless room rental experience. With features like user authentication, room listing, and Google Maps integration, it bridges the gap between property owners and room seekers.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
+- **User Authentication**: Secure sign-up and login system using Firebase.
+- **Room Listings**: Landlords can list rooms with title, price, and location details.
+- **Search & Filter**: Tenants can search and filter rooms based on location and budget.
+- **Map Integration**: Google Maps for exploring property locations.
+- **Real-time Chat**: Communication between landlords and tenants (upcoming).
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technology Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Frontend:
+- **React.js**: For building the user interface.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Backend:
+- **Firebase**:
+  - Authentication
+  - Firestore Database
 
-### `npm run eject`
+### APIs:
+- **Google Maps API**: To display property locations.
+- **Stripe API**: (Planned) for secure payment processing.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Setup and Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Follow these steps to set up and run the project locally:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
+- Install [Node.js](https://nodejs.org/)
+- Install [Visual Studio Code](https://code.visualstudio.com/)
 
-## Learn More
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/room-groom.git
+   cd room-groom
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Set up Firebase:
+   - Go to [Firebase Console](https://console.firebase.google.com/).
+   - Create a project and get your Firebase config details.
+   - Add your Firebase config to `firebase.js` in the `src` folder.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+   - Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Adding a Room
+1. Log in as a landlord.
+2. Fill out the room listing form (title, price, location).
+3. Submit the form to save the listing to Firebase.
 
-### Analyzing the Bundle Size
+### Searching for a Room
+1. Log in as a tenant.
+2. Use the search bar and filters to find suitable accommodations.
+3. View room details on the map.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Homepage
+![Homepage Screenshot](https://via.placeholder.com/800x400)
 
-### Advanced Configuration
+### Add Room Page
+![Add Room Screenshot](https://via.placeholder.com/800x400)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Future Enhancements
+- Add real-time chat between landlords and tenants.
+- Integrate payment gateway (Stripe).
+- Add reviews and ratings for rooms.
+- Implement a mobile-friendly design.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# PjsofonicRoomGroom
+---
+
+## Acknowledgements
+- [React.js Documentation](https://reactjs.org/docs/getting-started.html)
+- [Firebase Documentation](https://firebase.google.com/docs)
+- [Google Maps API](https://developers.google.com/maps/documentation)
+- [Stripe API Documentation](https://stripe.com/docs)
+
+---
+
+### Contribute
+Feel free to fork this repository, report bugs, or request features by opening an issue.
+
+---
