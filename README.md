@@ -93,10 +93,10 @@ Follow these steps to set up and run the project locally:
 ## Screenshots
 
 ### Homepage
-![Homepage Screenshot](roomgroom1.png)
+![Homepage Screenshot](asset/roomgroom1.png)
 
 ### Add Room Page
-![Add Room Screenshot](roomgroom2.png)
+![Add Room Screenshot](asset/roomgroom2.png)
 
 ---
 
