@@ -93,10 +93,10 @@ Follow these steps to set up and run the project locally:
 ## Screenshots
 
 ### Homepage
-![Homepage Screenshot](https://via.placeholder.com/800x400)
+![Homepage Screenshot](roomgroom1.jpg)
 
 ### Add Room Page
-![Add Room Screenshot](https://via.placeholder.com/800x400)
+![Add Room Screenshot](roomgroom2.jpg)
 
 ---
 
