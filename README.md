@@ -3,6 +3,9 @@
 
 **Room Groom** is an innovative platform designed to simplify room rentals. It helps users find, book, and manage accommodations while empowering landlords to list their properties efficiently. This platform is built with a focus on usability, trust, and transparency.
 
+#Live
+https://room-groom-c9f1nmycb-programerpj69s-projects.vercel.app
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Features](#features)
@@ -56,7 +59,7 @@ Follow these steps to set up and run the project locally:
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/room-groom.git
+   git clone https://github.com/programerPj69/room-groom.git
    cd room-groom
    ```
 2. Install dependencies:
